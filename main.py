@@ -22,8 +22,8 @@ bot = Client(
     bot_token=BOT_TOKEN
 )
 
-OWNER_ID = 5840594311
-SUDO_USERS = [OWNER_ID]
+OWNER_ID = 7760196814
+SUDO_USERS = [7760196814]
 
 
 # Helper to check authorization
