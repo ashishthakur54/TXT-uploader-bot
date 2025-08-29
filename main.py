@@ -22,8 +22,8 @@ bot = Client(
     bot_token=BOT_TOKEN
 )
 
-OWNER_ID = 7760196814
-SUDO_USERS = [7760196814]
+OWNER_ID = 8489271683
+SUDO_USERS = [8489271683]
 
 
 # Helper to check authorization
@@ -35,7 +35,7 @@ def is_authorized(user_id: int) -> bool:
 @bot.on_message(filters.command("start"))
 async def start_command(client: Client, message: Message):
     keyboard = InlineKeyboardMarkup(
-        [[InlineKeyboardButton("💬 Contact Dev", url="https://t.me/Tushar0125")]]
+        [[InlineKeyboardButton("💬 Contact Dev", url="t.me/AshuRajput69")]]
     )
     await message.reply_text(
         "**👋 Welcome to TXT & PDF Uploader Bot!**\n\n"
